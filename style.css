@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "open sans", sans-serif;
+}
+
+body {
+    /*background-image: url("https://images.app.goo.gl/DY2qyKK4Kdc9aUVPA");*/
+   /* background-size: cover; */
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center; /*alinea verticalmente*/
+    justify-content: center;/*alinea horizontalmente*/
+}
+
+.caja-mayor {
+    height: 60vh;
+    width: 95%;
+    max-width: 400px;
+    align-items: center;
+    background-color: black;
+    opacity: 0.8;  /* transparencia del elemento*/
+    padding: 5px;/*separación del texto   inferior*/
+    border-radius: 20px;/*redondeo del recuadro mayor*/
+}
+
+input {
+    border: none; /*borde del elemento*/
+    outline: none; /*linea interna del elemento*/
+    padding: 20px; /*espacio interno*/
+    border-radius: 20px; /*redondea los bordes*/
+    font-size: 20px;/*tamaño del texto interno*/
+    margin-bottom: 20px;
+    background-color: #D2D2D2;
+    color: blue;
+    opacity: 0.8;
+    width: calc(100%-120px);/*tamaño adaptable de input*/
+}
+
+.caja-mediana {
+    margin-top: 20px;
+    display: inline;
+    justify-content: space-between;
+}
+
+
+button {
+    border: none;
+    outline: none;
+    padding: 25px;
+    border-radius: 25px;
+    background-color: #ff607d8b;
+    float: right;/*para mover elemento a la derecha, es fluctuar*/
+    cursor: pointer;/*cambio del cursor por mano*/
+}
+
+button:hover
+/* efecto del mause al pasar por el botton*/
+    {
+    background-color: #ffe0e0e0;
+}
+
+.caja-menor {
+    display: flex;
+    align-items: left;
+}
+
+
+.ciudad {
+    color: #ffffff;
+    font-size: 20px;/*tamaño del texto*/
+    white-space: nowrap;
+    display: inline;
+}
+
+.grados {
+    color: #FF1600;
+    margin-top: 25px;
+    font-size: 20px;
+}
+.icono{
+    width: 35px;
+    height: 35px;
+    margin-top: 20px;
+    background-color: #ffffff;
+}
+
+.nuves {
+    color: #80FF00;
+    margin-left: 5px;
+    margin-top: 20px;
+    text-transform: capitalize;
+    /*capitalize va a mantener siempre la primera letra en mayuscula en la pantalla*/
+}
+
+.humedad {
+    color: #0033FF;
+    margin-top: 20px;
+   
+}
+
+.velocidad {
+    color: #ff607d8b;
+    margin-top: 20px;
+   
+}
